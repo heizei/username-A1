@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * github: https://github.com/heizei/username-A1
+ * github : https://github.com/heizei/username-A1
  * short video:
  */
 public class AssignmentOne {
