@@ -25,7 +25,7 @@ public class AssignmentOne {
         System.out.println("------------------------------");
 
 
-        // Part 5 – Collection of appointments
+        // Part 5 – Collection of appointments   s
         List<Appointment> list = new ArrayList<>();
 
         Appointment appointment1 = new Appointment("zhang san", "18829289099", "08:00", generalPractitioner1);
