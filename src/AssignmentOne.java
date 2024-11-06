@@ -26,7 +26,7 @@ public class AssignmentOne {
         psychologicalProfessional2.print();
 
 
-        System.out.println("------------------------------");
+        System.out.println("-------------------------------");
 
 
         // Part 5 – Collection of appointments
