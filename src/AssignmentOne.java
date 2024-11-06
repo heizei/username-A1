@@ -69,6 +69,10 @@ public class AssignmentOne {
     }
 
     public static void cancelBooking(List<Appointment> list, String phone) {
+        if (list == null || list.isEmpty()) {
+            System.out.println("No appointment found for phone number: " + phone);
+            return;
+        }
         for (Appointment appointment : list) {
             if (appointment.getPhone().equals(phone)) {
                 list.remove(appointment);
@@ -76,7 +80,6 @@ public class AssignmentOne {
                 return;
             }
         }
-        System.out.println("No appointment found for phone number: " + phone);
     }
 
 }
